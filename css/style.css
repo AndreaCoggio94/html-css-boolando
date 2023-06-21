@@ -6,6 +6,7 @@
   --green: #008000;
   --red: #ff0000;
   --cyan: #17c1c1;
+  --lightgrey: #c7c7c7;
 }
 
 /* # reset */
@@ -60,9 +61,12 @@
 }
 /* # header */
 
-/* header {
-  display: ;
-} */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 1px 2px var(--lightgrey);
+}
 
 /* # main */
 
