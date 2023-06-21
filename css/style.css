@@ -127,13 +127,13 @@ header > .container > .col-20 {
 /* # main */
 
 main > .container {
-  margin: 160px auto 40px;
+  margin: 100px auto 40px;
 }
 
 /* cards */
 
 .card {
-  margin: 10px;
+  margin: 40px 10px;
 }
 
 .card > p > span {
