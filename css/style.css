@@ -242,6 +242,15 @@ footer > .container > .col-60 > a {
   padding: 0 10px 0 0;
 }
 
+/* footer > .container > .col-20 {
+  text-align: center;
+} */
+
+footer > .container > .col-20 > i {
+  font-size: 1.25rem;
+  padding-right: 10px;
+}
+
 /* # debug */
 
 /* height */
