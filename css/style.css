@@ -134,8 +134,21 @@ main > .container {
 
 .card {
   margin: 10px;
-  color: var(--white);
 }
+
+.card > p > span {
+  padding-right: 5px;
+}
+
+.price {
+  color: var(--red);
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+/* over tags */
 
 .discount {
   z-index: 2;
@@ -143,6 +156,7 @@ main > .container {
   left: 0px;
   padding: 5px 10px;
   font-size: 0.75rem;
+  color: var(--white);
 }
 
 .eco {
@@ -151,6 +165,7 @@ main > .container {
   left: 50px;
   padding: 5px 10px;
   font-size: 0.75rem;
+  color: var(--white);
 }
 
 .favourite {
