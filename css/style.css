@@ -20,7 +20,7 @@
 
 .container {
   width: 70%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* width */
@@ -39,15 +39,15 @@
   display: flex;
 }
 
-.flex .align-center {
+.align-center {
   align-items: center;
 }
 
-.flex .wrap {
+.wrap {
   flex-wrap: wrap;
 }
 
-.flex .space-between {
+.space-between {
   justify-content: space-between;
 }
 /* # header */
@@ -56,6 +56,10 @@
 
 main > .container {
   margin: 160px auto 40px;
+}
+
+.card {
+  margin: 10px;
 }
 
 /* # debug */
