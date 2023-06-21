@@ -5,4 +5,57 @@
   --black: #000000;
   --green: #008000;
   --red: #ff0000;
+  --cyan: #17c1c1;
+}
+
+/* # general */
+
+.container {
+}
+
+/* # debug */
+
+/* height */
+
+.debug .tall {
+  height: 800px;
+}
+
+.debug .small {
+  height: 100px;
+}
+
+.debug .smaller {
+  height: 80px;
+}
+
+/* bordered */
+
+.debug .bordered {
+  border: 2px dashed var(--black);
+}
+
+.debug .bordered-white {
+  border: 2px dashed var(--white);
+}
+
+/* background color */
+
+.debug .bg-orange {
+  background-color: var(--orange);
+}
+.debug .bg-white {
+  background-color: var(--white);
+}
+.debug .bg-black {
+  background-color: var(--black);
+}
+.debug .bg-green {
+  background-color: var(--green);
+}
+.debug .bg-red {
+  background-color: var(--red);
+}
+.debug .bg-cyan {
+  background-color: var(--cyan);
 }
