@@ -110,6 +110,10 @@ header {
   z-index: 4;
 }
 
+header > .container > .col-20 > i {
+  padding-left: 5px;
+}
+
 /* links */
 header > .container > .col-40 > a {
   color: var(--white);
