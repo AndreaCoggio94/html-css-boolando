@@ -25,10 +25,6 @@
   margin: 0 auto;
 }
 
-.smaller {
-  height: 80px;
-}
-
 /* position */
 
 .fixed {
@@ -63,6 +59,15 @@
 
 .col-60 {
   width: 60%;
+}
+/* height */
+
+.smaller {
+  height: 80px;
+}
+
+.small {
+  height: 100px;
 }
 /* flex */
 
@@ -261,10 +266,6 @@ footer > .container > .col-20 > i {
 
 .debug .tall {
   height: 600px;
-}
-
-.debug .small {
-  height: 100px;
 }
 
 .debug .smallest {
