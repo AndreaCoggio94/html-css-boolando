@@ -168,6 +168,15 @@ main > .container {
   color: var(--white);
 }
 
+.eco-alone {
+  z-index: 2;
+  bottom: 30px;
+  left: 0px;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  color: var(--white);
+}
+
 .favourite {
   color: var(--black);
   top: 10px;
