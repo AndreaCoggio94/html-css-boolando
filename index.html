@@ -24,7 +24,7 @@
   <body class="debug">
     <!-- header -->
 
-    <header class="smaller bg-orange">
+    <header class="smaller bg-orange fixed">
       <div class="container smaller flex space-between align-center">
         <div class="col-40">
           <a href="#">Donna</a><a href="#">Uomo</a><a href="#">Bambini</a>
@@ -38,7 +38,27 @@
     <main>
       <div class="container bordered bg-cyan flex wrap space-between">
         <!-- first card -->
-        <div class="card tall bg-white col-30"></div>
+        <div class="card col-30">
+          <div class="img relative">
+            <img src="./img/1.webp" alt="prima immagine" />
+            <img
+              class="hidden absolute"
+              src="./img/1b.webp"
+              alt="prima nascosta"
+            />
+            <div class="discount absolute bg-red">-50%</div>
+            <div class="eco absolute bg-green">Sostenibilità</div>
+            <div class="favourite absolute bg-white">
+              <div class="relative">
+                <i class="fa-solid fa-heart"></i>
+                <i class="hidden-heart absolute fa-solid fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <address>Levi's</address>
+          <h2>RELAXED FIT TEE UNISEX</h2>
+          <p><span>14.99€</span><span>29.99€</span></p>
+        </div>
         <!-- second card -->
         <div class="card tall bg-white col-30"></div>
         <!-- third card -->

@@ -29,6 +29,20 @@
   height: 80px;
 }
 
+/* position */
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 /* width */
 
 .col-20 {
@@ -64,14 +78,33 @@
 .space-between {
   justify-content: space-between;
 }
+
+/* background colors */
+
+.bg-orange {
+  background-color: var(--orange);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.bg-black {
+  background-color: var(--black);
+}
+.bg-green {
+  background-color: var(--green);
+}
+.bg-red {
+  background-color: var(--red);
+}
+
 /* # header */
 
 header {
-  position: fixed;
   top: 0;
   width: 100%;
   box-shadow: 1px 2px var(--lightgrey);
   color: var(--white);
+  z-index: 4;
 }
 
 /* links */
@@ -97,8 +130,69 @@ main > .container {
   margin: 160px auto 40px;
 }
 
+/* cards */
+
 .card {
   margin: 10px;
+  color: var(--white);
+}
+
+.discount {
+  z-index: 2;
+  bottom: 30px;
+  left: 0px;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+}
+
+.eco {
+  z-index: 2;
+  bottom: 30px;
+  left: 50px;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+}
+
+.favourite {
+  color: var(--black);
+  top: 10px;
+  right: 0;
+  z-index: 2;
+  padding: 15px;
+}
+
+.favourite > i {
+  font-size: 1.5rem;
+}
+
+.favourite:hover .hidden-heart {
+  display: inline-block;
+}
+
+.hidden-heart {
+  display: none;
+  z-index: 3;
+  color: var(--red);
+  top: 0;
+  left: 0;
+}
+
+/* cards img */
+
+.img > img {
+  max-width: 100%;
+  z-index: 0;
+}
+
+.hidden {
+  display: none;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.card:hover .hidden {
+  display: inline-block;
 }
 
 /* # debug */
@@ -133,21 +227,6 @@ main > .container {
 
 /* background color */
 
-.debug .bg-orange {
-  background-color: var(--orange);
-}
-.debug .bg-white {
-  background-color: var(--white);
-}
-.debug .bg-black {
-  background-color: var(--black);
-}
-.debug .bg-green {
-  background-color: var(--green);
-}
-.debug .bg-red {
-  background-color: var(--red);
-}
 .debug .bg-cyan {
   background-color: var(--cyan);
 }
